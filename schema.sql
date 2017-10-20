@@ -16,16 +16,16 @@ CREATE TABLE products (
 
 -- Inserts initial data into table
 INSERT INTO products(product_name, department_name, price, stock_quantity)
-VALUES ('table', 'furniture', 100, 10),
-	     ('laptop', 'electronics', 2000, 5),
-       ('chair', 'furniture', 50, 20),
-       ('tv', 'entertainment', 500, 10),
-       ('vhs', 'relics', 10, 3),
-       ('map', 'travel', 5, 50),
-       ('turntable', 'entertainment', 300, 10),
-       ('bed', 'bedding', 1200, 6),
-       ('pillow', 'bedding', 15, 30),
-       ('cd', 'relics', 8, 1000);
+VALUES ('cat food', 'pets', 500, 12),
+	     ('cat bed', 'pets', 250, 20),
+       ('down comforter', 'bedding', 100, 250),
+       ('bath towel', 'household', 500, 15),
+       ('dvd', 'entertainment', 1000, 20),
+       ('book', 'entertainment', 1000, 8),
+       ('scented candle', 'household', 300, 15),
+       ('cat toy', 'pets', 1000, 3),
+       ('electric mixer', 'kitchen', 50, 80),
+       ('charger cable', 'electronics', 500, 10);
 
 -- Allows a quick view of table
 SELECT * FROM products;
